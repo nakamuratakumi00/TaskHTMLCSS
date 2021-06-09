@@ -159,6 +159,7 @@ header .icon img {
 .inner {
   background: #fff; /*背景色*/
   width: 1215px; /*幅*/
+  height: 1000px;
   margin: 0 auto 50px; /*上、左右、下へのボックスの外側の余白。左右にautoを指定すると中央配置になる。*/
   padding: 30px; /*ボックス内の余白*/
   border-radius: 20px; /*角丸のサイズ。この行削除すれば角が尖った通常の四角形になります。*/
@@ -192,7 +193,6 @@ header .icon img {
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: auto;
 }
 /*トップページのcontentsブロック*/
 .home #contents {
