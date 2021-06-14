@@ -1,0 +1,62 @@
+div.ui-datepicker {
+  font-size: 250%;
+  margin-left: 320px;
+  margin-top: 100px;
+  z-index: 0;
+}
+.textbox {
+  width: 360px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  border-right: 2px solid #aaa;
+  border-bottom: 2px solid #aaa;
+  background-image: none;
+  background-color: #fff;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.btn-submit {
+  width: 300px;
+  height: 50px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(111, 168, 214);
+  font-size: 20px;
+  color: #fff;
+  margin-left: 150px;
+}
+.btn-submit:active {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.box25 {
+  position: relative;
+  background: #fff0cd;
+  box-shadow: 0px 0px 0px 5px #fff0cd;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+.box25:after {
+  position: absolute;
+  content: "";
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: #ffdb88 #fff #ffdb88;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.box25 p {
+  margin: 0;
+  padding: 0;
+}
