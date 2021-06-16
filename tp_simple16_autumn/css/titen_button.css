@@ -1,0 +1,637 @@
+.btn-submit1 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 450px;
+  top: 235px;
+}
+.btn-submit1:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit2 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 517px;
+  top: 240px;
+}
+.btn-submit2:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit3 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 578px;
+  top: 235px;
+}
+.btn-submit3:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit4 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 445px;
+  top: 270px;
+}
+.btn-submit4:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit5 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 470px;
+  top: 295px;
+}
+.btn-submit5:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit6 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 525px;
+  top: 285px;
+}
+.btn-submit6:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit7 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 575px;
+  top: 275px;
+}
+.btn-submit7:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit8 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 630px;
+  top: 265px;
+}
+.btn-submit8:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit9 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 565px;
+  top: 307px;
+}
+.btn-submit9:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit10 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 625px;
+  top: 315px;
+}
+.btn-submit10:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit11 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 660px;
+  top: 290px;
+}
+.btn-submit11:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit12 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 455px;
+  top: 540px;
+}
+.btn-submit12:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit13 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 545px;
+  top: 545px;
+}
+.btn-submit13:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit14 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 445px;
+  top: 570px;
+}
+.btn-submit14:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit15 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 530px;
+  top: 570px;
+}
+.btn-submit15:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit16 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 523px;
+  top: 600px;
+}
+.btn-submit16:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit17 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 510px;
+  top: 635px;
+}
+.btn-submit17:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit18 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 460px;
+  top: 680px;
+}
+.btn-submit18:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit19 {
+  width: 85px;
+  height: 45px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 410px;
+  top: 725px;
+}
+.btn-submit19:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit20 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 470px;
+  top: 750px;
+}
+.btn-submit20:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit21 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 465px;
+  top: 780px;
+}
+.btn-submit21:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit22 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 575px;
+  top: 750px;
+}
+.btn-submit22:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit23 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 565px;
+  top: 795px;
+}
+.btn-submit23:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit24 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 610px;
+  top: 585px;
+}
+.btn-submit24:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit25 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 645px;
+  top: 620px;
+}
+.btn-submit25:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit26 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 745px;
+  top: 610px;
+}
+.btn-submit26:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit27 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 745px;
+  top: 755px;
+}
+.btn-submit27:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit28 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 735px;
+  top: 820px;
+}
+.btn-submit28:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit29 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 665px;
+  top: 825px;
+}
+.btn-submit29:hover {
+  border-bottom: none;
+  background-color: #888;
+}

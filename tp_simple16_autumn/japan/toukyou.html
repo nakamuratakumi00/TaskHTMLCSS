@@ -1,113 +1,137 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>過去の天気</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="過去の天気を表示します。" />
+  <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style-opening.css" />
+  <link rel="stylesheet" href="../css/titen_button.css" />
+  <script src="../js/fixmenu_pagetop.js"></script>
+  <script src="../js/japan.js"></script>
+  <script src="../js/openclose.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>天気概要アプリ</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="過去の天気を表示します。" />
-        <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５" />
-        <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../css/box.css" />
-        <link rel="stylesheet" href="../css/style-opening.css" />
-        <link rel="stylesheet"
-            href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css" />
-        <script src="../js/fixmenu_pagetop.js"></script>
-        <script src="../js/openclose.js"></script>
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-    </head>
-    <div id="container">
-        <header>
-            <h1 id="logo">
-                <a href="../index.html"><img src="../images/logo.png" alt="SAMPLE SITE" /></a>
-            </h1>
+<body class="homes">
+  <div id="container">
+    <header>
+      <h1 id="logo">
+        <a href="../index.html"><img src="../images/logo.png" alt="SAMPLE SITE" /></a>
+      </h1>
 
-            <!--PC用（801px以上端末）メニュー-->
-            <nav id="menubar">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
+      <!--PC用（801px以上端末）メニュー-->
+      <nav id="menubar">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="../help.html">Help</a></li>
           <li><a href="../registration.html">Registration</a></li>
-                </ul>
-            </nav>
-
-            <ul class="icon">
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </header>
-
-        <div id="contents">
-            <aside class="inner first">
-                <h2>日付を選択！</h2>
-                <div style="text-align: center"></div>
-
-                <form method="GET" action="test.php">
-                    <div id="calendar"></div>
-                    <div type="text" id="js-datepicker">
-                        <input type="hidden" id="datepickerValue" name="date" value="">
-                    </div>
-                    <input type="hidden" name="japan" value="toukyou" />
-                    <input type="submit" value="送信" class="btn-submit" />
-                </form>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-                <script src="https://rawgit.com/jquery/jquery-ui/master/ui/i18n/datepicker-ja.js"></script>
-
-                <script src="../js/jquery-ui.multidatespicker.js"></script>
-
-                <script src="../js/test.js"></script>
-            </aside>
-            <footer>
-                <small>Copyright&copy; <a href="../index.html">SAMPLE SITE</a> All Rights
-                    Reserved.</small>
-                <span class="pr">《<a href="https://template-party.com/" target="_blank">Web
-                        Design:Template-Party</a>》</span>
-            </footer>
-        </div>
-        <!--/#contents-->
-    </div>
-    <!--/#container-->
-
-    <!--オープニングアニメーション-->
-    <aside id="mainimg">
-        <img src="../images/ooame.png" alt="" class="photo photo1" />
-        <img src="../images/ooyuki.png" alt="" class="photo photo2" />
-        <img src="../images/hare.png" alt="" class="photo photo3" />
-        <img src="../images/arare.png" alt="" class="photo photo4" />
-        <img src="../images/ooame.png" alt="" class="photo photo5" />
-        <img src="../images/kaminari.png" alt="" class="photo photo6" />
-        <img src="../images/yoruNoKaisei.png" alt="" class="photo photo7" />
-        <img src="../images/kumoriNotiHare.png" alt="" class="photo photo8" />
-        <img src="../images/kyouhuu.png" alt="" class="photo photo9" />
-    </aside>
-
-    <!--小さな端末用（800px以下端末）メニュー-->
-    <nav id="menubar-s">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
         </ul>
-    </nav>
+      </nav>
 
-    <!--ページの上部に戻る「↑」ボタン-->
-    <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+      <ul class="icon">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </header>
 
-    <!--メニュー開閉ボタン-->
-    <div id="menubar_hdr" class="close"></div>
+    <div id="contents">
+      <aside class="first inner">
+          <h2>地点をクリック！</h2>
+        <div style="text-align: center">
+            <div style="margin-top: 100px;">
+            <img src="../images/toukyou.png" alt="" />
+            </div>
+        </div>
+        <form action="date.php" method="GET">
+            <button type="submit" value="ogouti" class="btn-submit1"name="japan">小河内</button>
+            <button type="submit" value="oume" class="btn-submit2"name="japan">青梅</button>
+            <button type="submit" value="nerima" class="btn-submit3"name="japan">練馬</button>
+            <button type="submit" value="ozawa" class="btn-submit4"name="japan">小沢</button>
+            <button type="submit" value="hatiouji" class="btn-submit5"name="japan">八王子</button>
+            <button type="submit" value="hutyuu" class="btn-submit6"name="japan">府中</button>
+            <button type="submit" value="tyouhu" class="btn-submit7"name="japan">調布</button>
+            <button type="submit" value="toukyou" class="btn-submit8"name="japan">東京</button>
+            <button type="submit" value="setagaya" class="btn-submit9"name="japan">世田谷</button>
+            <button type="submit" value="haneda" class="btn-submit10"name="japan">羽田</button>
+            <button type="submit" value="edogawarinkai" class="btn-submit11"name="japan">江戸川臨海</button>
+            <button type="submit" value="oosimakitanoyama" class="btn-submit12"name="japan">大島北ノ山</button>
+            <button type="submit" value="oosimasendu" class="btn-submit13"name="japan">大島泉津</button>
+            <button type="submit" value="oosimarinji" class="btn-submit14"name="japan">大島臨時</button>
+            <button type="submit" value="oosima" class="btn-submit15"name="japan">大島</button>
+            <button type="submit" value="oosimasasikiji" class="btn-submit16"name="japan">大島差木地</button>
+            <button type="submit" value="tosima" class="btn-submit17"name="japan">利島</button>
+            <button type="submit" value="niijima" class="btn-submit18"name="japan">新島</button>
+            <button type="submit" value="kouzusima" class="btn-submit19"name="japan">神津島</button>
+            <button type="submit" value="miyakeizu" class="btn-submit20"name="japan">三宅伊豆</button>
+            <button type="submit" value="miyakejimaako" class="btn-submit21"name="japan">三宅島阿古</button>
+            <button type="submit" value="miyakejima" class="btn-submit22"name="japan">三宅島</button>
+            <button type="submit" value="miyaketubota" class="btn-submit23"name="japan">三宅坪田</button>
+            <button type="submit" value="hatijiyou" class="btn-submit24"name="japan">八丈島</button>
+            <button type="submit" value="yaemigahara" class="btn-submit25"name="japan">八重見ヶ原</button>
+            <button type="submit" value="titijima" class="btn-submit26"name="japan">父島</button>
+            <button type="submit" value="hahajima" class="btn-submit27"name="japan">母島</button>
+            <button type="submit" value="minamitorisima" class="btn-submit28"name="japan">南鳥島</button>
+            <button type="submit" value="aogasima" class="btn-submit29"name="japan">青ヶ島</button>
+        </form>
+      </aside>
 
-    <!--メニューの開閉処理条件設定　800px以下-->
-    <script>
-        if (OCwindowWidth() <= 800) {
-            open_close("menubar_hdr", "menubar-s");
-        }
-    </script>
+
+
+        <footer>
+          <small>Copyright&copy; <a href="../index.html">SAMPLE SITE</a> All Rights
+            Reserved.</small>
+          <span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+        </footer>
+    </div>
+    <!--/#contents-->
+  </div>
+  <!--/#container-->
+
+  <!--オープニングアニメーション-->
+  <aside id="mainimg">
+    <img src="../images/ooame.png" alt="" class="photo photo1" />
+    <img src="../images/ooyuki.png" alt="" class="photo photo2" />
+    <img src="../images/hare.png" alt="" class="photo photo3" />
+    <img src="../images/arare.png" alt="" class="photo photo4" />
+    <img src="../images/ooame.png" alt="" class="photo photo5" />
+    <img src="../images/kaminari.png" alt="" class="photo photo6" />
+    <img src="../images/yoruNoKaisei.png" alt="" class="photo photo7" />
+    <img src="../images/kumoriNotiHare.png" alt="" class="photo photo8" />
+    <img src="../images/kyouhuu.png" alt="" class="photo photo9" />
+  </aside>
+
+  <!--小さな端末用（800px以下端末）メニュー-->
+  <nav id="menubar-s">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="link.html">Link</a></li>
+    </ul>
+  </nav>
+
+  <!--ページの上部に戻る「↑」ボタン-->
+  <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+  <!--メニュー開閉ボタン-->
+  <div id="menubar_hdr" class="close"></div>
+
+  <!--メニューの開閉処理条件設定　800px以下-->
+  <script>
+    if (OCwindowWidth() <= 800) {
+      open_close("menubar_hdr", "menubar-s");
+    }
+  </script>
 </body>
 
 </html>
