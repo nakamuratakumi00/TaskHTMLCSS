@@ -717,7 +717,7 @@ ol {
   line-height: 50%;
   text-align: center;
   text-decoration: none;
-  background: #1b73ba;
+  background: #52acf7;
   display: block;
   position: relative;
   -webkit-border-radius: 12px;
@@ -737,7 +737,6 @@ ol {
   -moz-box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.2);
 }
-
 .msr_btn2 {
   height: 12px;
   padding-top: 1px;

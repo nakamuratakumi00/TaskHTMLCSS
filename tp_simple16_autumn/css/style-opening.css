@@ -11,11 +11,11 @@
   z-index: -1;
 }
 /*全ての写真に対する共通指定（※トップページのみへの追加指定）*/
-.home .photo {
+/*.home .photo {
   animation-duration: 2.5s; /*アニメーションの実行時間。秒。*/
-  animation-fill-mode: both; /*アニメーションの待機中は最初のキーフレームを、完了後は最後のキーフレームを維持する*/
-  animation-timing-function: ease-in-out; /*速度の変化パターン*/
-}
+  /*animation-fill-mode: both; /*アニメーションの待機中は最初のキーフレームを、完了後は最後のキーフレームを維持する*/
+  /*animation-timing-function: ease-in-out; /*速度の変化パターン*/
+/*}
 
 /*photo1*/
 .photo1 {
