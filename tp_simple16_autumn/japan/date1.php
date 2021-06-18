@@ -21,6 +21,7 @@ $japan = $_GET['japan'];
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/start/jquery-ui.css" />
         <script src="../js/fixmenu_pagetop.js"></script>
         <script src="../js/openclose.js"></script>
+
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -49,40 +50,39 @@ $japan = $_GET['japan'];
         </header>
 
         <div id="contents">
-            <section class="inner first">
+            <aside class="inner first">
                 <h2>日付を選択！</h2>
                 <div style="text-align: center"></div>
                 <form method="GET" action="test.php">
-                    <div id="calendar"></div>
-                    <div class="year-calendar">
+                    <div class="year-calendar"></div>
 
-                        <!----------------------------------------------- 下で日付を送る--------------------------------------------------------------->
+                    <!----------------------------------------------- 下で日付を送る--------------------------------------------------------------->
 
-                        <input type="hidden" id="datepickerValue" name="date" value="">
-                    </div>
-
-                    <!----------------------------------------------- 下で地点を送る--------------------------------------------------------------->
-
-                    <input type="hidden" name="japan" value="<?php echo $japan; ?>" />
-
-                    <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
-
-                    <input type="submit" value="送信" class="btn-submit" />
-                </form>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-                <script src="https://rawgit.com/jquery/jquery-ui/master/ui/i18n/datepicker-ja.js"></script>
-
-                <script src="../js/calendar.js"></script>
-            </section>
-            <footer>
-                <small>Copyright&copy; <a href="../index.html">SAMPLE SITE</a> All Rights
-                    Reserved.</small>
-                <span class="pr">《<a href="https://template-party.com/" target="_blank">Web
-                        Design:Template-Party</a>》</span>
-            </footer>
+                    <input type="hidden" id="datepickerValue" name="date" value="">
         </div>
-        <!--/#contents-->
+
+        <!----------------------------------------------- 下で地点を送る--------------------------------------------------------------->
+
+        <input type="hidden" name="japan" value="<?php echo $japan; ?>" />
+
+        <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
+    </div>
+
+    <input type="submit" value="送信" class="btn-submit" />
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://rawgit.com/jquery/jquery-ui/master/ui/i18n/datepicker-ja.js"></script>
+    <script src="../js/calendar.js"></script>
+    </aside>
+    <footer>
+        <small>Copyright&copy; <a href="../index.html">SAMPLE SITE</a> All Rights
+            Reserved.</small>
+        <span class="pr">《<a href="https://template-party.com/" target="_blank">Web
+                Design:Template-Party</a>》</span>
+    </footer>
+    </div>
+    <!--/#contents-->
     </div>
     <!--/#container-->
 

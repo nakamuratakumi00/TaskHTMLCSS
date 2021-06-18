@@ -1,9 +1,9 @@
-div.ui-datepicker {
+/*div.ui-datepicker {
   font-size: 250%;
   margin-left: 320px;
   margin-top: 100px;
   z-index: 0;
-}
+}*/
 .textbox {
   width: 360px;
   padding: 5px 8px;
@@ -31,8 +31,8 @@ div.ui-datepicker {
   background-color: rgb(111, 168, 214);
   font-size: 20px;
   color: #fff;
-  margin-left: 750px;
-  margin-top: 100px;
+  margin-left: 900px;
+  margin-top: 35px;
 }
 .btn-submit:active {
   border-bottom: none;

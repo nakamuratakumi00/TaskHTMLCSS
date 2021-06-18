@@ -1,0 +1,106 @@
+/*------ Green color -------*/
+/*------ Blue color -------*/
+/*------ Yellow color -------*/
+/*------ Grey color -------*/
+/*------ General -------*/
+/*------ Fonts -------*/
+
+/*------------- Jquery-ui DatePicker ---------------*/
+
+div.ui-datepicker {
+  font-size: 110%;
+  margin-left: 120px;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.ui-datepicker-trigger {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 1;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+.datepicker-wrap:after {
+  display: block;
+  font-family: "soap-icons";
+  content: "\e86a";
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  height: 100%;
+  text-align: center;
+  line-height: 34px;
+  background: green;
+}
+
+.start-range,
+.ui-state-active {
+  background-color: #003580 !important;
+  border-radius: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.start-range a,
+.ui-state-active a {
+  color: rgb(59, 255, 52) !important;
+  background-color: unset !important;
+}
+
+.start-range .ui-state-default {
+  color: rgb(59, 255, 52) !important;
+}
+
+.end-range {
+  background-color: #003580 !important;
+  border-radius: 0px !important;
+  border-top-right-radius: 3px !important;
+  border-bottom-right-radius: 3px !important;
+}
+
+.end-range a {
+  color: #fff !important;
+  background-color: unset !important;
+}
+
+.hover-range {
+  background-color: #34db66 !important;
+}
+
+.hover-range a {
+  color: #fff !important;
+  background-color: unset !important;
+}
+
+.in-range {
+  background-color: #00b7f1 !important;
+}
+
+.in-range a {
+  color: rgb(59, 255, 108) !important;
+  background-color: unset !important;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+  display: none;
+}
+
+.ui-datepicker .ui-datepicker-calendar td.ui-datepicker-current-day a,
+.ui-datepicker .ui-datepicker-calendar td a:hover {
+  background-color: #98ce44;
+}
