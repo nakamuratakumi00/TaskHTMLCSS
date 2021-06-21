@@ -18,8 +18,8 @@ $(document).ready(function () {
             var daysOfYear = [];
 
             var day = inst.selectedDay,
-                    mon = inst.selectedMonth,
-                    year = inst.selectedYear;
+                mon = inst.selectedMonth,
+                year = inst.selectedYear;
 
             if (cal_click == 2) {
                 cal_click = 0;
@@ -50,9 +50,9 @@ $(document).ready(function () {
 
                 var StopDate = new Date(endDate);
                 var k = (in_range_count - 1);
-                for (var d = new Date(startDate) ; d <= StopDate; d.setDate(d.getDate() + 1)) {
+                for (var d = new Date(startDate); d <= StopDate; d.setDate(d.getDate() + 1)) {
                     var date = new Date(d);
-                    daysOfYear.push( date.getFullYear()+ '/' +(date.getMonth() + 1) + '/' +date.getDate() );
+                    daysOfYear.push(date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate());
                     if (i > 0) {
                         inst.dpDiv.find('[data-year="' + date.getFullYear() + '"][data-month="' + (date.getMonth()) + '"] a:not(.ui-priority-secondary):containsExact(' + date.getDate() + ')').closest("td").addClass("in-range");
                     }
@@ -70,7 +70,7 @@ $(document).ready(function () {
 
                 var StopDate = new Date(endDate);
                 var k = (in_range_count - 1);
-                for (var d = new Date(startDate) ; d <= StopDate; d.setDate(d.getDate() + 1)) {
+                for (var d = new Date(startDate); d <= StopDate; d.setDate(d.getDate() + 1)) {
                     var date = new Date(d);
                     if (i > 0 && i < k) {
                         inst.dpDiv.find('[data-year="' + date.getFullYear() + '"][data-month="' + (date.getMonth()) + '"] a:not(.ui-priority-secondary):containsExact(' + date.getDate() + ')').closest("td").addClass("in-range");
@@ -106,7 +106,7 @@ $(document).ready(function () {
 
             }, 80);
         },
-        numberOfMonths:[3,4],
+        numberOfMonths: [3, 4],
         showCurrentAtPos: 0,
         changeMonth: false,
         changeYear: true,
@@ -130,7 +130,7 @@ $(document).ready(function () {
             var k = daydiff(parseDate(startDate), parseDate(endDate_h));
             var StopDate_h = new Date(endDate_h);
             var i_h = 0;
-            for (var d = new Date(startDate) ; d <= StopDate_h; d.setDate(d.getDate() + 1)) {
+            for (var d = new Date(startDate); d <= StopDate_h; d.setDate(d.getDate() + 1)) {
                 $('.end-range').removeClass("end-range");
                 var date = new Date(d);
                 if (i_h > 0) {
@@ -148,19 +148,19 @@ $(document).ready(function () {
         $('.hover-range').removeClass("hover-range");
     });
 
-    });
+});
 
-        /*-----------------------------------------
-    -------------------------------------------
-    -------- Function Date Difference ------------
-    -------------------------------------------*/
-    function parseDate(str) {
-        var mdy = str.split('/');
-        return new Date(mdy[2], mdy[0] - 1, mdy[1]);
-    }
+/*-----------------------------------------
+-------------------------------------------
+-------- Function Date Difference ------------
+-------------------------------------------*/
+function parseDate(str) {
+    var mdy = str.split('/');
+    return new Date(mdy[2], mdy[0] - 1, mdy[1]);
+}
 
-    function daydiff(first, second) {
-        return Math.round((second - first) / (1000 * 60 * 60 * 24));
-    }
+function daydiff(first, second) {
+    return Math.round((second - first) / (1000 * 60 * 60 * 24));
+}
 
-    /*---------------- End --------------*/
+/*---------------- End --------------*/

@@ -1,0 +1,637 @@
+.btn-submit1 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 305px;
+  margin-left: 598px;
+}
+.btn-submit1:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit2 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 305px;
+  margin-left: 655px;
+}
+.btn-submit2:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit3 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 270px;
+  margin-left: 690px;
+}
+.btn-submit3:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit4 {
+  width: 65px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 275px;
+  margin-left: 762px;
+}
+.btn-submit4:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit5 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  margin-left: 710px;
+}
+.btn-submit5:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit6 {
+  width: 75px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 360px;
+  margin-left: 632px;
+}
+.btn-submit6:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit7 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 360px;
+  margin-left: 725px;
+}
+.btn-submit7:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit8 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 385px;
+  margin-left: 675px;
+}
+.btn-submit8:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit9 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 430px;
+  margin-left: 670px;
+}
+.btn-submit9:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit10 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 430px;
+  margin-left: 610px;
+}
+.btn-submit10:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit11 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 445px;
+  margin-left: 550px;
+}
+.btn-submit11:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit12 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 470px;
+  margin-left: 540px;
+}
+.btn-submit12:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit13 {
+  width: 65px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 485px;
+  margin-left: 635px;
+}
+.btn-submit13:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit14 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 505px;
+  margin-left: 685px;
+}
+.btn-submit14:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit15 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 505px;
+  margin-left: 570px;
+}
+.btn-submit15:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit16 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 535px;
+  margin-left: 605px;
+}
+.btn-submit16:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit17 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 510px;
+  margin-left: 520px;
+}
+.btn-submit17:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit18 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 515px;
+  margin-left: 430px;
+}
+.btn-submit18:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit19 {
+  width: 110px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 570px;
+  margin-left: 520px;
+}
+.btn-submit19:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit20 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 575px;
+  margin-left: 470px;
+}
+.btn-submit20:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit21 {
+  width: 65px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 585px;
+  margin-left: 630px;
+}
+.btn-submit21:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit22 {
+  width: 55px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 580px;
+  margin-left: 715px;
+}
+.btn-submit22:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit23 {
+  width: 65px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  top: 610px;
+  margin-left: 600px;
+}
+.btn-submit23:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit24 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 610px;
+  top: 585px;
+}
+.btn-submit24:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit25 {
+  width: 85px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 645px;
+  top: 620px;
+}
+.btn-submit25:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit26 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 745px;
+  top: 610px;
+}
+.btn-submit26:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit27 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 745px;
+  top: 755px;
+}
+.btn-submit27:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit28 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 735px;
+  top: 820px;
+}
+.btn-submit28:hover {
+  border-bottom: none;
+  background-color: #888;
+}
+
+.btn-submit29 {
+  width: 57px;
+  height: 30px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(60, 111, 153);
+  font-size: 14px;
+  color: #fff;
+  position: absolute;
+  margin-left: 665px;
+  top: 825px;
+}
+.btn-submit29:hover {
+  border-bottom: none;
+  background-color: #888;
+}
