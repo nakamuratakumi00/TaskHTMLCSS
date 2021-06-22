@@ -1,5 +1,6 @@
 <?php
 $japan = $_GET['japan'];
+$Prefectures = $_GET['Prefectures'];
 ?>
 
 <!DOCTYPE html>
@@ -61,8 +62,9 @@ $japan = $_GET['japan'];
                         <input type="hidden" id="datepickerValue" name="date" value="">
                     </div>
 
-                    <!----------------------------------------------- 下で地点を送る--------------------------------------------------------------->
+                    <!----------------------------------------------- 下で都道府県と地点を送る--------------------------------------------------------------->
 
+                    <input type="hidden" name="Prefectures" value="<?php echo $Prefectures; ?>" />
                     <input type="hidden" name="japan" value="<?php echo $japan; ?>" />
 
                     <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
