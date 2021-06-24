@@ -39,6 +39,28 @@
   background-color: #888;
 }
 
+.btn-submit1 {
+  width: 300px;
+  height: 50px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px solid #aaa;
+  background-image: none;
+  background-color: rgb(111, 168, 214);
+  font-size: 20px;
+  color: #fff;
+  margin-left: 50px;
+  bottom: 155px;
+  position: absolute;
+}
+.btn-submit1:active {
+  border-bottom: none;
+  background-color: #888;
+}
+
 .box25 {
   position: relative;
   background: #fff0cd;

@@ -59,8 +59,12 @@ $(document).ready(function () {
                     i++;
                     in_range_count++;
                 }
-                console.log(daysOfYear);
-                datepickerValue.value = daysOfYear;
+                //console.log(daysOfYear);
+                var datearray=[startDate,endDate];
+
+                console.log(datearray);
+
+                datepickerValue.value = datearray;
                 cal_click++;
             }
             setTimeout(function () {

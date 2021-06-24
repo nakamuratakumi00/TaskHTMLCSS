@@ -1,6 +1,6 @@
 <?php
 $japan = $_GET['japan'];
-$Prefectures = $_GET['Prefectures'];
+$Prefecture = $_GET['Prefecture'];
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +38,6 @@ $Prefectures = $_GET['Prefectures'];
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../help.html">Help</a></li>
-                    <li><a href="../registration.html">Registration</a></li>
                 </ul>
             </nav>
 
@@ -53,7 +52,7 @@ $Prefectures = $_GET['Prefectures'];
             <section class="inner first">
                 <h2>日付を選択！</h2>
                 <div style="text-align: center"></div>
-                <form method="GET" action="test.php">
+                <form method="GET" action="connect.php">
                     <div id="calendar"></div>
                     <div class="year-calendar">
 
@@ -62,15 +61,25 @@ $Prefectures = $_GET['Prefectures'];
                         <input type="hidden" id="datepickerValue" name="date" value="">
                     </div>
 
-                    <!----------------------------------------------- 下で都道府県と地点を送る--------------------------------------------------------------->
+                    <!----------------------------------------------- 下で都道府県と地点を表示画面に送る--------------------------------------------------------------->
 
-                    <input type="hidden" name="Prefectures" value="<?php echo $Prefectures; ?>" />
+                    <input type="hidden" name="Prefecture" value="<?php echo $Prefecture; ?>" />
                     <input type="hidden" name="japan" value="<?php echo $japan; ?>" />
 
                     <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
 
-                    <input type="submit" value="送信" class="btn-submit" />
+                    <input type="submit" value="表示" class="btn-submit" />
                 </form>
+
+                <form method="GET" action="../registration.php">
+                    <!----------------------------------------------- 下で都道府県と地点を登録画面に送る--------------------------------------------------------------->
+                    <input type="hidden" name="Prefecture" value="<?php echo $Prefecture; ?>" />
+                    <input type="hidden" name="japan" value="<?php echo $japan; ?>" />
+                    <input type="submit" value="登録" class="btn-submit1" />
+
+                    <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
+                </form>
+
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
                 <script src="https://rawgit.com/jquery/jquery-ui/master/ui/i18n/datepicker-ja.js"></script>
