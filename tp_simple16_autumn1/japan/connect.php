@@ -53,14 +53,5 @@ $dates = explode(",", $Date);
 
 $sql = "select * from weather where prefecture='" . $prefecture[0] . "' AND district = '" . $japan[0] . "' AND date BETWEEN '" . $dates[0] . "' and '".$dates[1]."'";
 $stmt = $link->query($sql);
-foreach ($stmt as $row) {
-
-  echo $row['prefecture']."<br />" ;
-  echo $row['district']."<br />";
-  echo $row['date']."<br />";
-  echo $row['highest_temperature']."<br />" ;
-  echo $row['lowest_temperature']."<br />" ;
-  echo $row['noon_weather']."<br />";
-  echo $row['night_weather']."<br />";
-  echo "<br />";
-}
+$stmt = array((string)$row);
+echo $row;
