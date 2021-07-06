@@ -52,7 +52,7 @@ $Prefecture = $_GET['Prefecture'];
             <section class="inner first">
                 <h2>日付を選択！</h2>
                 <div style="text-align: center"></div>
-                <form method="GET" action="connect.php">
+                <form method="GET" action="result(3).php">
                     <div id="calendar"></div>
                     <div class="year-calendar">
 
