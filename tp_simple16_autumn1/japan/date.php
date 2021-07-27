@@ -53,6 +53,7 @@ $Prefecture = $_GET['Prefecture'];
                 <h2>日付を選択！</h2>
                 <div style="text-align: center"></div>
                 <form method="GET" action="result(3).php">
+                
                     <div id="calendar"></div>
                     <div class="year-calendar">
 
@@ -69,12 +70,17 @@ $Prefecture = $_GET['Prefecture'];
                     <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
 
                     <input type="submit" value="表示" class="btn-submit" />
+                
                 </form>
 
-                <form method="GET" action="../registration.php">
+                <form method="GET" action="rr.yoshihara.php">
+
+                    <input type="hidden" id="datepickerValue" name="date" value="">
+
                     <!----------------------------------------------- 下で都道府県と地点を登録画面に送る--------------------------------------------------------------->
                     <input type="hidden" name="Prefecture" value="<?php echo $Prefecture; ?>" />
                     <input type="hidden" name="japan" value="<?php echo $japan; ?>" />
+
                     <input type="submit" value="登録" class="btn-submit1" />
 
                     <!----------------------------------------------- ここまで！！--------------------------------------------------------------->
